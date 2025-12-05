@@ -1,0 +1,11 @@
+streamlit
+pdfplumber
+pdf2image
+pytesseract
+faiss-cpu
+sentence-transformers
+torch
+tqdm
+pillow
+camelot-py[cv]
+opencv-python

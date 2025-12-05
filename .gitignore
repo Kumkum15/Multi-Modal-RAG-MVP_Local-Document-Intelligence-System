@@ -1,0 +1,88 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Byte-compiled
+*.pyc
+*.pyo
+
+# Cache
+.cache/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/secrets.toml
+.streamlit/*.json
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE / Editor folders
+# -------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# Model & Embeddings
+# -------------------------
+embeddings/
+faiss_index/
+*.faiss
+*.bin
+*.npy
+
+# -------------------------
+# PDF Uploads
+# -------------------------
+uploads/
+data/
+*.pdf
+
+# -------------------------
+# Tesseract OCR Outputs
+# -------------------------
+ocr_output/
+*.tiff
+*.png
+
+# -------------------------
+# Config files
+# -------------------------
+*.env
+.env.*
+
+# -------------------------
+# Logs & temp files
+# -------------------------
+logs/
+tmp/
+temp/
+*.tmp
+
+# -------------------------
+# Misc
+# -------------------------
+*.zip
+*.tar
+*.gz
