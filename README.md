@@ -22,17 +22,27 @@ The entire pipeline runs locally and does not require OpenAI API or paid keys.
 Key Features
 
 Feature	Description
+
 Multi-modal ingestion	Extracts text, tables, images, OCR, metadata from PDFs
+
 OCR Support	Uses Tesseract for scanned pages
+
 Chunking	Smart semantic + structural chunking
+
 Vector Embeddings	Uses Ollama embeddings (nomic-embed-text or similar)
+
 Vector Store	FAISS-based retrieval
+
 Query Engine	Retrieves top-k chunks from vector store
+
 Local LLM	Uses Llama 3.1 / Mistral in Ollama for grounded QA
+
 Streamlit UI	Clean interface for upload → question → answer
+
 Source Citations	Each answer includes page-level references
 
 System Architecture
+
 PDF -> Multi-modal Extractor -> Chunker -> Embeddings -> Vector DB (FAISS) -> Query -> Retriever -> LLM -> Answer
 
 Tech Stack
@@ -52,6 +62,7 @@ Ollama (Llama 3 / Mistral)
 LangChain components (optional)
 
 ⚙️ Installation
+
 1️ Install Python dependencies
 pip install -r requirements.txt
 
@@ -65,6 +76,7 @@ Windows installer:
 https://github.com/UB-Mannheim/tesseract/wiki
 
 ▶️ Run the App
+
 streamlit run src/app.py
 
 Evaluation
@@ -84,4 +96,5 @@ Accuracy is significantly improved due to chunk-aware retrieval and multimodal e
 Author
 
 Kumkum Hirani
+
 Email: kumkumhirani.co@gmail.com
