@@ -35,20 +35,6 @@ Source Citations	Each answer includes page-level references
 System Architecture
 PDF -> Multi-modal Extractor -> Chunker -> Embeddings -> Vector DB (FAISS) -> Query -> Retriever -> LLM -> Answer
 
-📂 Project Structure
-multi_modal_rag_mvp/
-│── data/
-│── embeddings/
-│── src/
-│   │── app.py              # Streamlit frontend
-│   │── ingest.py           # PDF ingestion & OCR
-│   │── chunk.py            # Chunk generation
-│   │── embed_index.py      # Embedding + FAISS indexer
-│   │── retrieve.py         # Retriever
-│   │── answer.py           # Local LLM generation
-│── requirements.txt
-│── README.md
-
 Tech Stack
 
 Python 3.10+
