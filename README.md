@@ -1,5 +1,5 @@
-Multi-Modal RAG MVP – Local Document Intelligence System
-A lightweight, end-to-end multi-modal Retrieval-Augmented Generation pipeline capable of processing text, tables, and images from real-world PDFs — powered locally using Ollama (no API cost).
+Multi-Modal RAG MVP - Local Document Intelligence System
+A lightweight, end-to-end multi-modal Retrieval-Augmented Generation pipeline capable of processing text, tables, and images from real-world PDFs, powered locally using Ollama (no API cost).
 
 Project Overview
 
